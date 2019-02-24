@@ -1,0 +1,24 @@
+.overlay {
+  background-color: #a2838e6b;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: 100vh;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-image: url("../img/xpc6.jpg");
+  -o-background-image: url("../img/xpc6.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/xpc6.jpg");
+  -o-background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/xpc6.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
